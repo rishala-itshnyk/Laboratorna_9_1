@@ -60,7 +60,7 @@ namespace Laboratorna_9_1
         {
             for (int i = 0; i < students.Length; i++)
             {
-                Console.WriteLine($"\nВкажіть дані студента {i + 1} (рівень B):");
+                Console.WriteLine($"\nВкажіть дані студента {i + 1}:");
                 students[i].StudentNumber = i + 1;
 
                 Console.Write("Прізвище Студента: ");
